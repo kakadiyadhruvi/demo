@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+ 
+}
+
+.menu li a{
+  text-decoration: none;
+   margin: 20px;
+}
+/* ----login-page-part-1------- */
+.login-page-bg{
+  background-color: blueviolet;
+  height: 757px;
+  display: flex;
+  align-items: center ;
+
+
+
+  
+}
+.login-text h1{
+  color: white;
+  font-size:70px;
+  font-family: 'Ubuntu', sans-serif;
+  width: 70%;
+  align-items: center;
+}
+.login-text p{
+  color: white;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+.learn-btn button{
+  color: blueviolet;
+  background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  border: none;
+  padding: 5px 55px ;
+  border-radius: 5px;
+}
+.featu-btn button{
+    color: white;
+  background-color: transparent;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid white;
+  padding: 3px 50px ;
+  border-radius: 5px;
+}
+
+/* ---------- */
+.main-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-fild h4{
+  color: blueviolet;
+}
+
+.form-fild input{
+border: none;
+border-bottom: 2px solid #5F5F5F;
+}
+.form-fild label{
+  color: #5F5F5F;
+
+}
+:focus-visible {
+  outline: none;
+}
+.submit{
+  color: white;
+  background-color: blueviolet;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 6px 75px;
+  border:none;
+  border-radius: 10px;
+}
+
+
+/* --------------- */
+.search-icon{
+  position: absolute;
+  padding: 8px 9px;
+  font-size: 19px;
+left: 25%;
+}
+.search-bar input{
+  padding: 10px 36px;
+  border: 2px solid #b4c4db;
+  border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.users-data ul{
+  list-style-type: none;
+  display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.users-data ul li{
+  padding: 10px 20px;
+  margin: 5px;
+}
+.users-data ul li a{
+  text-decoration: none;
+  color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+.users-data ul li:hover{
+background-color: rgb(97, 160, 247);
+border-radius: 10px;
+
+}
+.active{
+  background-color: rgb(97, 160, 247);
+border-radius: 10px;
+  
+}
+.active a{
+  color: white !important;
+}
+.users-data ul li a:hover{
+  color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-bg{
+     border-radius: 10px;
+    padding: 35px 45px;
+    margin: 10px;
+    /* background-color: bisque; */
+    box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.75);
+}
+.bg-color{
+  background-color: #b4c4db;
+  box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.75);
+}
